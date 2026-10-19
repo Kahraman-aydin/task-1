@@ -1,0 +1,36 @@
+# API Information
+
+
+main: {
+  kit: {
+    info: {
+      auth: false
+      contact: {
+        email: "info@open-meteo.com"
+        name: "Open-Meteo"
+        url: "https://open-meteo.com"
+      }
+      description: "Open-Meteo offers free weather forecast APIs for open-source developers and non-commercial use."
+      license: {
+        name: "Attribution 4.0 International (CC BY 4.0)"
+        url: "https://creativecommons.org/licenses/by/4.0/"
+      }
+      servers: [
+        {
+          url: "{base}"
+          variables: {
+            base: {
+              description: "The base URL of the API, which its definition does not name."
+            }
+          }
+        }
+      ]
+      summary: "Open-Meteo offers free weather forecast APIs for open-source developers and non-commercial use."
+      termsOfService: "https://open-meteo.com/en/features#terms"
+      title: "Open-Meteo Weather Forecast API"
+      version: "1.0"
+      website: "https://open-meteo.com"
+    }
+  }
+}
+

@@ -1,0 +1,28 @@
+# BasicWeatherForecastApiFlow
+
+main: kit: flow: BasicWeatherForecastApiFlow:
+{
+  entity: "weather_forecast_api",
+  kind: "basic",
+  name: "BasicWeatherForecastApiFlow",
+  step: [
+    {
+      i: {
+        ref: "weather_forecast_api_ref01",
+        srcdatavar: "weather_forecast_api_ref01_data",
+        suffix: "_dt0"
+      }
+
+      o: "load",
+      v: [
+        {
+          apply: "TextFieldMark",
+          def: {
+            mark: "Mark01-weather_forecast_api_ref01"
+          }
+        }
+      ]
+    }
+  ],
+  "key$": "BasicWeatherForecastApiFlow"
+}

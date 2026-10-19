@@ -1,0 +1,88 @@
+{
+  "existing": {
+    "weather_forecast_api": {
+      "WEATHER_FORECAST_API00": {
+        "current": {},
+        "current_units": {},
+        "daily": {},
+        "daily_units": {},
+        "elevation": 154,
+        "generationtime_ms": 155,
+        "hourly": {},
+        "hourly_units": {},
+        "latitude": 158,
+        "longitude": 159,
+        "minutely_15": {},
+        "minutely_15_units": {},
+        "timezone": "sa2",
+        "timezone_abbreviation": "sa3",
+        "utc_offset_seconds": 164,
+        "id": "WEATHER_FORECAST_API00"
+      },
+      "WEATHER_FORECAST_API01": {
+        "current": {},
+        "current_units": {},
+        "daily": {},
+        "daily_units": {},
+        "elevation": 304,
+        "generationtime_ms": 305,
+        "hourly": {},
+        "hourly_units": {},
+        "latitude": 308,
+        "longitude": 309,
+        "minutely_15": {},
+        "minutely_15_units": {},
+        "timezone": "s138",
+        "timezone_abbreviation": "s139",
+        "utc_offset_seconds": 314,
+        "id": "WEATHER_FORECAST_API01"
+      },
+      "WEATHER_FORECAST_API02": {
+        "current": {},
+        "current_units": {},
+        "daily": {},
+        "daily_units": {},
+        "elevation": 454,
+        "generationtime_ms": 455,
+        "hourly": {},
+        "hourly_units": {},
+        "latitude": 458,
+        "longitude": 459,
+        "minutely_15": {},
+        "minutely_15_units": {},
+        "timezone": "s1ce",
+        "timezone_abbreviation": "s1cf",
+        "utc_offset_seconds": 464,
+        "id": "WEATHER_FORECAST_API02"
+      }
+    }
+  },
+  "new": {
+    "weather_forecast_api": {
+      "weather_forecast_api_ref01": {
+        "current": {},
+        "current_units": {},
+        "daily": {},
+        "daily_units": {},
+        "elevation": 604,
+        "generationtime_ms": 605,
+        "hourly": {},
+        "hourly_units": {},
+        "latitude": 608,
+        "longitude": 609,
+        "minutely_15": {},
+        "minutely_15_units": {},
+        "timezone": "s264",
+        "timezone_abbreviation": "s265",
+        "utc_offset_seconds": 614
+      }
+    }
+  },
+  "requests": {
+    "GET /v1/forecast": {
+      "provenance": "operation-contract",
+      "version": 2,
+      "source": "openapi3"
+    }
+  }
+}
